@@ -75,7 +75,7 @@ public static WebDriverWait webDriverWait;
     @AfterClass
     public static void closeBrowser() {
         // after each test class finish running quit the browser
-        //webDriver.quit();
+        webDriver.quit();
     }
 
 
